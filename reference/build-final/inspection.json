@@ -1,0 +1,376 @@
+{
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cover": {
+      "background": "rgb(253, 245, 234)",
+      "labels": [
+        {
+          "text": "Wedding Invitation",
+          "font": "Georgia, serif",
+          "size": "8.5px",
+          "color": "rgb(92, 10, 16)",
+          "letterSpacing": "4.93px",
+          "opacity": "1"
+        },
+        {
+          "text": "Muhammed Mushraf",
+          "font": "\"Invitation Serif\", \"Palatino Linotype\", \"Book Antiqua\", Georgia, serif",
+          "size": "30px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "normal",
+          "opacity": "1"
+        },
+        {
+          "text": "26th November 2026",
+          "font": "Georgia, serif",
+          "size": "9px",
+          "color": "rgb(84, 34, 42)",
+          "letterSpacing": "2.7px",
+          "opacity": "1"
+        },
+        {
+          "text": "16 Jumada al-Akhirah 1448 AH",
+          "font": "Georgia, serif",
+          "size": "8px",
+          "color": "rgb(132, 111, 102)",
+          "letterSpacing": "2.24px",
+          "opacity": "1"
+        }
+      ],
+      "audio": [
+        {
+          "paused": true,
+          "muted": false,
+          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/images/invitation-desktop.svg",
+          "loaded": true,
+          "naturalSize": [
+            240,
+            150
+          ],
+          "styles": {
+            "display": "none",
+            "opacity": "1",
+            "visibility": "visible",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "src": "http://127.0.0.1:3000/images/invitation-mobile.svg",
+          "loaded": true,
+          "naturalSize": [
+            69,
+            150
+          ],
+          "styles": {
+            "display": "block",
+            "opacity": "1",
+            "visibility": "visible",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    "opened": {
+      "scrollHeight": 3553,
+      "orderedPageText": [
+        "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "In the Name of Allah",
+        "The Most Gracious & The Most Merciful",
+        "✦",
+        "With great pleasure",
+        "✦",
+        "With hearts full of joy and gratitude, we cordially invite your esteemed presence along with your family on the auspicious occasion of the wedding of our beloved ones. Your prayers, blessings, and gracious presence will make this sacred and joyous occasion truly memorable.",
+        "SCROLL",
+        "⌄",
+        "وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً",
+        "SURAH AR-RUM · 30:21",
+        "“And He placed between you affection and mercy.”",
+        "✦",
+        "Muhammed Mushraf",
+        "S/O Late Hamza Kolakkal & Fathima K.V",
+        "Kolakkal (H), Kuppivalavu",
+        "&",
+        "Sharfina Sherin",
+        "D/O Sidheek Thayyil & Sakkeena Chembakath",
+        "Thayyil (H), Palathingal",
+        "THE WEDDING",
+        "✦",
+        "Thursday · 26 November 2026",
+        "11:00 AM – 3:00 PM",
+        "Smart Convention Centre",
+        "CHELARI",
+        "⌖",
+        "Open in Google Maps",
+        "✦",
+        "In Sha Allah",
+        "Best wishes",
+        "Febitha & Jimshidha",
+        "COUNTING DOWN TO THE WEDDING",
+        "✦",
+        "05",
+        "DAYS",
+        "18",
+        "HRS",
+        "49",
+        "MIN",
+        "48",
+        "SEC",
+        "THURSDAY · 26 NOVEMBER 2026 · 11:00 AM",
+        "SAVE THE DATE",
+        "✦",
+        "26 · 11 · 2026",
+        "Mushraf & Sharfina",
+        "THE WEDDING · 11:00 AM – 3:00 PM",
+        "ADD TO CALENDAR",
+        "✦",
+        "Mushraf & Sharfina",
+        "CREATED WITH INVYTOR",
+        "♫"
+      ],
+      "links": [
+        {
+          "text": "Scroll⌄",
+          "href": "http://127.0.0.1:3000/#verse"
+        },
+        {
+          "text": "⌖ Open in Google Maps",
+          "href": "https://www.google.com/maps?cid=6058098222266983240"
+        }
+      ],
+      "audio": [
+        {
+          "paused": false,
+          "muted": false,
+          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": null
+        },
+        {
+          "text": "ADD TO CALENDAR",
+          "label": null
+        },
+        {
+          "text": "♫",
+          "label": "Mute music"
+        }
+      ]
+    }
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "cover": {
+      "background": "rgb(253, 245, 234)",
+      "labels": [
+        {
+          "text": "Wedding Invitation",
+          "font": "Georgia, serif",
+          "size": "8.5px",
+          "color": "rgb(92, 10, 16)",
+          "letterSpacing": "4.93px",
+          "opacity": "1"
+        },
+        {
+          "text": "Muhammed Mushraf",
+          "font": "\"Invitation Serif\", \"Palatino Linotype\", \"Book Antiqua\", Georgia, serif",
+          "size": "56px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "normal",
+          "opacity": "1"
+        },
+        {
+          "text": "26th November 2026",
+          "font": "Georgia, serif",
+          "size": "9px",
+          "color": "rgb(84, 34, 42)",
+          "letterSpacing": "2.7px",
+          "opacity": "1"
+        },
+        {
+          "text": "16 Jumada al-Akhirah 1448 AH",
+          "font": "Georgia, serif",
+          "size": "8px",
+          "color": "rgb(132, 111, 102)",
+          "letterSpacing": "2.24px",
+          "opacity": "1"
+        }
+      ],
+      "audio": [
+        {
+          "paused": true,
+          "muted": false,
+          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/images/invitation-desktop.svg",
+          "loaded": true,
+          "naturalSize": [
+            240,
+            150
+          ],
+          "styles": {
+            "display": "block",
+            "opacity": "1",
+            "visibility": "visible",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        },
+        {
+          "src": "http://127.0.0.1:3000/images/invitation-mobile.svg",
+          "loaded": true,
+          "naturalSize": [
+            69,
+            150
+          ],
+          "styles": {
+            "display": "none",
+            "opacity": "1",
+            "visibility": "visible",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    "opened": {
+      "scrollHeight": 3720,
+      "orderedPageText": [
+        "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "In the Name of Allah",
+        "The Most Gracious & The Most Merciful",
+        "✦",
+        "With great pleasure",
+        "✦",
+        "With hearts full of joy and gratitude, we cordially invite your esteemed presence along with your family on the auspicious occasion of the wedding of our beloved ones. Your prayers, blessings, and gracious presence will make this sacred and joyous occasion truly memorable.",
+        "SCROLL",
+        "⌄",
+        "وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً",
+        "SURAH AR-RUM · 30:21",
+        "“And He placed between you affection and mercy.”",
+        "✦",
+        "Muhammed Mushraf",
+        "S/O Late Hamza Kolakkal & Fathima K.V",
+        "Kolakkal (H), Kuppivalavu",
+        "&",
+        "Sharfina Sherin",
+        "D/O Sidheek Thayyil & Sakkeena Chembakath",
+        "Thayyil (H), Palathingal",
+        "THE WEDDING",
+        "✦",
+        "Thursday · 26 November 2026",
+        "11:00 AM – 3:00 PM",
+        "Smart Convention Centre",
+        "CHELARI",
+        "⌖",
+        "Open in Google Maps",
+        "✦",
+        "In Sha Allah",
+        "Best wishes",
+        "Febitha & Jimshidha",
+        "COUNTING DOWN TO THE WEDDING",
+        "✦",
+        "05",
+        "DAYS",
+        "18",
+        "HRS",
+        "49",
+        "MIN",
+        "40",
+        "SEC",
+        "THURSDAY · 26 NOVEMBER 2026 · 11:00 AM",
+        "SAVE THE DATE",
+        "✦",
+        "26 · 11 · 2026",
+        "Mushraf & Sharfina",
+        "THE WEDDING · 11:00 AM – 3:00 PM",
+        "ADD TO CALENDAR",
+        "✦",
+        "Mushraf & Sharfina",
+        "CREATED WITH INVYTOR",
+        "♫"
+      ],
+      "links": [
+        {
+          "text": "Scroll⌄",
+          "href": "http://127.0.0.1:3000/#verse"
+        },
+        {
+          "text": "⌖ Open in Google Maps",
+          "href": "https://www.google.com/maps?cid=6058098222266983240"
+        }
+      ],
+      "audio": [
+        {
+          "paused": false,
+          "muted": false,
+          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": null
+        },
+        {
+          "text": "ADD TO CALENDAR",
+          "label": null
+        },
+        {
+          "text": "♫",
+          "label": "Mute music"
+        }
+      ]
+    }
+  }
+}

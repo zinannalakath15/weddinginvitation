@@ -1,0 +1,274 @@
+{
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cover": {
+      "background": "rgb(251, 249, 242)",
+      "labels": [
+        {
+          "text": "Muhammed Mushraf",
+          "font": "\"Cormorant Garamond\", \"Noto Serif\", Georgia, serif",
+          "size": "30px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "normal",
+          "opacity": "1"
+        },
+        {
+          "text": "Sharfina Sherin",
+          "font": "\"Cormorant Garamond\", \"Noto Serif\", Georgia, serif",
+          "size": "30px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "normal",
+          "opacity": "1"
+        },
+        {
+          "text": "26th November 2026",
+          "font": "Cinzel, sans-serif",
+          "size": "9px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "2.7px",
+          "opacity": "0.65"
+        },
+        {
+          "text": "16 Jumada al-Akhirah 1448 AH",
+          "font": "Cinzel, sans-serif",
+          "size": "8px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "2.24px",
+          "opacity": "0.5"
+        },
+        {
+          "text": "Tap to Open",
+          "font": "Cinzel, sans-serif",
+          "size": "14.82px",
+          "color": "rgb(26, 3, 6)",
+          "letterSpacing": "3.2604px",
+          "opacity": "1"
+        }
+      ],
+      "audio": [
+        {
+          "paused": false,
+          "muted": true,
+          "src": "https://invytor.com/audio/Aaqa%20(mp3cut.net).mp3"
+        }
+      ],
+      "images": []
+    },
+    "opened": {
+      "scrollHeight": 3398,
+      "orderedPageText": [
+        "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "In the Name of Allah",
+        "The Most Gracious & The Most Merciful",
+        "With great pleasure",
+        "With hearts full of joy and gratitude, we cordially invite your esteemed presence along with your family on the auspicious occasion of the wedding of our beloved ones. Your prayers, blessings, and gracious presence will make this sacred and joyous occasion truly memorable.",
+        "SCROLL",
+        "وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا",
+        "لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً",
+        "SURAH AR-RUM · 30:21",
+        "“And He placed between you affection and mercy.”",
+        "Muhammed Mushraf",
+        "S/O Late Hamza Kolakkal & Fathima K.V",
+        "Kolakkal (H), Kuppivalavu",
+        "&",
+        "Sharfina Sherin",
+        "D/O Sidheek Thayyil & Sakkeena Chembakath",
+        "Thayyil (H), Palathingal",
+        "THE WEDDING",
+        "Thursday · 26 November 2026",
+        "11:00 AM – 3:00 PM",
+        "Smart Convention Centre",
+        "CHELARI",
+        "Smart Convention Centre",
+        "CHELARI",
+        "MAP",
+        "In Sha Allah",
+        "Best wishes",
+        "Febitha & Jimshidha",
+        "COUNTING DOWN TO THE WEDDING",
+        "00",
+        "DAYS",
+        "00",
+        "HRS",
+        "00",
+        "MIN",
+        "00",
+        "SEC",
+        "THURSDAY · 26 NOVEMBER 2026 · 11:00 AM",
+        "SAVE THE DATE",
+        "26 · 11 · 2026",
+        "Mushraf & Sharfina",
+        "WEDDING · 11:00 AM – 3:00 PM",
+        "ADD TO CALENDAR",
+        "Mushraf & Sharfina",
+        "CREATED WITH INVYTOR"
+      ],
+      "links": [
+        {
+          "text": "Smart Convention CentreChelariMap",
+          "href": "https://www.google.com/maps?cid=6058098222266983240"
+        },
+        {
+          "text": "Invytor",
+          "href": "https://invytor.com/"
+        }
+      ],
+      "audio": [
+        {
+          "paused": false,
+          "muted": false,
+          "src": "https://invytor.com/audio/Aaqa%20(mp3cut.net).mp3"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "ADD TO CALENDAR",
+          "label": null
+        },
+        {
+          "text": "",
+          "label": "Pause music"
+        }
+      ]
+    }
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "cover": {
+      "background": "rgb(251, 249, 242)",
+      "labels": [
+        {
+          "text": "Muhammed Mushraf",
+          "font": "\"Cormorant Garamond\", \"Noto Serif\", Georgia, serif",
+          "size": "56px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "normal",
+          "opacity": "1"
+        },
+        {
+          "text": "Sharfina Sherin",
+          "font": "\"Cormorant Garamond\", \"Noto Serif\", Georgia, serif",
+          "size": "56px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "normal",
+          "opacity": "1"
+        },
+        {
+          "text": "26th November 2026",
+          "font": "Cinzel, sans-serif",
+          "size": "9px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "2.7px",
+          "opacity": "0.65"
+        },
+        {
+          "text": "16 Jumada al-Akhirah 1448 AH",
+          "font": "Cinzel, sans-serif",
+          "size": "8px",
+          "color": "rgb(61, 10, 16)",
+          "letterSpacing": "2.24px",
+          "opacity": "0.5"
+        },
+        {
+          "text": "Tap to Open",
+          "font": "Cinzel, sans-serif",
+          "size": "15px",
+          "color": "rgb(26, 3, 6)",
+          "letterSpacing": "3.3px",
+          "opacity": "1"
+        }
+      ],
+      "audio": [
+        {
+          "paused": false,
+          "muted": true,
+          "src": "https://invytor.com/audio/Aaqa%20(mp3cut.net).mp3"
+        }
+      ],
+      "images": []
+    },
+    "opened": {
+      "scrollHeight": 3676,
+      "orderedPageText": [
+        "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "In the Name of Allah",
+        "The Most Gracious & The Most Merciful",
+        "With great pleasure",
+        "With hearts full of joy and gratitude, we cordially invite your esteemed presence along with your family on the auspicious occasion of the wedding of our beloved ones. Your prayers, blessings, and gracious presence will make this sacred and joyous occasion truly memorable.",
+        "SCROLL",
+        "وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا",
+        "لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً",
+        "SURAH AR-RUM · 30:21",
+        "“And He placed between you affection and mercy.”",
+        "Muhammed Mushraf",
+        "S/O Late Hamza Kolakkal & Fathima K.V",
+        "Kolakkal (H), Kuppivalavu",
+        "&",
+        "Sharfina Sherin",
+        "D/O Sidheek Thayyil & Sakkeena Chembakath",
+        "Thayyil (H), Palathingal",
+        "THE WEDDING",
+        "Thursday · 26 November 2026",
+        "11:00 AM – 3:00 PM",
+        "Smart Convention Centre",
+        "CHELARI",
+        "Smart Convention Centre",
+        "CHELARI",
+        "MAP",
+        "In Sha Allah",
+        "Best wishes",
+        "Febitha & Jimshidha",
+        "COUNTING DOWN TO THE WEDDING",
+        "00",
+        "DAYS",
+        "00",
+        "HRS",
+        "00",
+        "MIN",
+        "00",
+        "SEC",
+        "THURSDAY · 26 NOVEMBER 2026 · 11:00 AM",
+        "SAVE THE DATE",
+        "26 · 11 · 2026",
+        "Mushraf & Sharfina",
+        "WEDDING · 11:00 AM – 3:00 PM",
+        "ADD TO CALENDAR",
+        "Mushraf & Sharfina",
+        "CREATED WITH INVYTOR"
+      ],
+      "links": [
+        {
+          "text": "Smart Convention CentreChelariMap",
+          "href": "https://www.google.com/maps?cid=6058098222266983240"
+        },
+        {
+          "text": "Invytor",
+          "href": "https://invytor.com/"
+        }
+      ],
+      "audio": [
+        {
+          "paused": false,
+          "muted": false,
+          "src": "https://invytor.com/audio/Aaqa%20(mp3cut.net).mp3"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "ADD TO CALENDAR",
+          "label": null
+        },
+        {
+          "text": "",
+          "label": "Pause music"
+        }
+      ]
+    }
+  }
+}
