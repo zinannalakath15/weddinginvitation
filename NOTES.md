@@ -26,7 +26,8 @@ Playwright captured the cover at both viewports and the opened invitation at bot
 2. **Qur’anic verse and couple:** Surah Ar-Rum 30:21 in Arabic and English; groom name and parents/address; ampersand; bride name and parents/address. This is another viewport-tall scene.
 3. **Wedding and venue:** “Thursday · 26 November 2026”, 11:00 AM–3:00 PM, Smart Convention Centre, Chelari, a Google Maps link, “In Sha Allah”, and best wishes from Febitha & Jimshidha. Another viewport-tall scene.
 4. **Countdown and save-the-date:** Days/hours/minutes/seconds, date and time, a calendar card for 26 November 2026, and an Add to Calendar button.
-5. **Footer:** “Mushraf & Sharfina” and a small “Created with Invytor” credit.
+5. **Share invitation:** A separate WhatsApp share card with a prefilled message containing the couple, date/time, venue, map link, and invitation URL.
+6. **Footer:** “Mushraf & Sharfina” and a small “Created with Invytor” credit.
 
 There is no gallery and no RSVP in the opened page. There is no separate schedule beyond the ceremony time.
 
@@ -42,4 +43,8 @@ There is no gallery and no RSVP in the opened page. There is no separate schedul
 ## Assets and implementation constraints
 
 The original uses `crimson-scroll-bg.webp` and `Aaqa (mp3cut.net).mp3`, plus hosted Google fonts. These will **not** be copied or hotlinked. The clone will use original local decorative artwork, locally authored audio, local/system serif fonts with swap behavior, and a configurable content object. The live map target observed was `https://www.google.com/maps?cid=6058098222266983240`.
+
+## Current visual direction
+
+The invitation is styled in a sage garden palette: deep forest green (`#293e35`), muted sage (`#657a68`), pale sage paper (`#e4eade`), ivory panels, and soft antique gold (`#b79a68`). The cover uses an open, centered typographic layout inside a double pointed arch, with fuller sage and ivory flower clusters around the edges. The couple remains at the lower right, with a flowing red-and-gold bridal outfit and a white groom's coat. Welcome, couple, and venue copy sits directly on the framed floral backgrounds without white panels. Countdown, save-the-date, and WhatsApp actions remain in their separate cards; countdown and save-the-date sit side by side on wider screens and stack on mobile. A subtle local paper-grain texture, layered highlights, and natural shadows add a printed-paper feel. Soft light-pink five-petal blossoms drift continuously after opening and are disabled for reduced-motion preferences. All invitation copy, family details, date, venue, map, music, and footer are retained.
 

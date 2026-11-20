@@ -1,6 +1,6 @@
 # Mushraf & Sharfina Wedding Invitation
 
-A mobile-first digital wedding invitation built with the Next.js App Router and Tailwind CSS. Invitation copy, dates, venue, map, audio, and artwork paths live in [`config/invitation.ts`](./config/invitation.ts).
+A mobile-first digital wedding invitation built with the Next.js App Router and Tailwind CSS. Its sage, ivory, and soft-gold botanical theme is designed to feel calm and modern on both phones and larger screens. Invitation copy, dates, venue, map, audio, and artwork paths live in [`config/invitation.ts`](./config/invitation.ts).
 
 ## Run locally
 
@@ -18,7 +18,7 @@ Push this project to a Git host and import it into a Node.js hosting service suc
 
 Edit `config/invitation.ts`. Replace the four original local SVG backgrounds in `public/images/` with artwork you own or are licensed to use. Replace `public/audio/wedding-piano-loop.wav` with a locally hosted, licensed or royalty-free music track and update `media.music` if its path changes. Do not add copyrighted third-party artwork or music without permission.
 
-The invitation starts audio after the visitor taps **Tap to Open**, which is needed for reliable browser playback. The visitor can pause or resume the track with the fixed music button. The calendar button downloads an iCalendar event, and the map button opens Google Maps.
+The invitation starts audio after the visitor taps **Tap to Open**, which is needed for reliable browser playback. The visitor can mute or unmute the track with the fixed music button. The calendar button downloads an iCalendar event, WhatsApp sharing opens a prefilled invitation message, and the map button opens Google Maps.
 
 ## Reference images
 

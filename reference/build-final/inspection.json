@@ -44,12 +44,12 @@
         {
           "paused": true,
           "muted": false,
-          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+          "src": "http://127.0.0.1:3002/audio/wedding-piano-loop.wav"
         }
       ],
       "images": [
         {
-          "src": "http://127.0.0.1:3000/images/invitation-desktop.svg",
+          "src": "http://127.0.0.1:3002/images/invitation-desktop.svg",
           "loaded": true,
           "naturalSize": [
             240,
@@ -72,7 +72,7 @@
           }
         },
         {
-          "src": "http://127.0.0.1:3000/images/invitation-mobile.svg",
+          "src": "http://127.0.0.1:3002/images/invitation-mobile.svg",
           "loaded": true,
           "naturalSize": [
             69,
@@ -135,11 +135,11 @@
         "✦",
         "05",
         "DAYS",
-        "18",
+        "16",
         "HRS",
-        "49",
+        "56",
         "MIN",
-        "48",
+        "09",
         "SEC",
         "THURSDAY · 26 NOVEMBER 2026 · 11:00 AM",
         "SAVE THE DATE",
@@ -148,6 +148,9 @@
         "Mushraf & Sharfina",
         "THE WEDDING · 11:00 AM – 3:00 PM",
         "ADD TO CALENDAR",
+        "SHARE THE INVITATION",
+        "✦",
+        "SHARE ON WHATSAPP",
         "✦",
         "Mushraf & Sharfina",
         "CREATED WITH INVYTOR",
@@ -156,7 +159,7 @@
       "links": [
         {
           "text": "Scroll⌄",
-          "href": "http://127.0.0.1:3000/#verse"
+          "href": "http://127.0.0.1:3002/#verse"
         },
         {
           "text": "⌖ Open in Google Maps",
@@ -167,7 +170,7 @@
         {
           "paused": false,
           "muted": false,
-          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+          "src": "http://127.0.0.1:3002/audio/wedding-piano-loop.wav"
         }
       ],
       "buttons": [
@@ -177,6 +180,10 @@
         },
         {
           "text": "ADD TO CALENDAR",
+          "label": null
+        },
+        {
+          "text": "SHARE ON WHATSAPP",
           "label": null
         },
         {
@@ -231,12 +238,12 @@
         {
           "paused": true,
           "muted": false,
-          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+          "src": "http://127.0.0.1:3002/audio/wedding-piano-loop.wav"
         }
       ],
       "images": [
         {
-          "src": "http://127.0.0.1:3000/images/invitation-desktop.svg",
+          "src": "http://127.0.0.1:3002/images/invitation-desktop.svg",
           "loaded": true,
           "naturalSize": [
             240,
@@ -259,7 +266,7 @@
           }
         },
         {
-          "src": "http://127.0.0.1:3000/images/invitation-mobile.svg",
+          "src": "http://127.0.0.1:3002/images/invitation-mobile.svg",
           "loaded": true,
           "naturalSize": [
             69,
@@ -322,11 +329,11 @@
         "✦",
         "05",
         "DAYS",
-        "18",
+        "16",
         "HRS",
-        "49",
+        "55",
         "MIN",
-        "40",
+        "57",
         "SEC",
         "THURSDAY · 26 NOVEMBER 2026 · 11:00 AM",
         "SAVE THE DATE",
@@ -335,6 +342,9 @@
         "Mushraf & Sharfina",
         "THE WEDDING · 11:00 AM – 3:00 PM",
         "ADD TO CALENDAR",
+        "SHARE THE INVITATION",
+        "✦",
+        "SHARE ON WHATSAPP",
         "✦",
         "Mushraf & Sharfina",
         "CREATED WITH INVYTOR",
@@ -343,7 +353,7 @@
       "links": [
         {
           "text": "Scroll⌄",
-          "href": "http://127.0.0.1:3000/#verse"
+          "href": "http://127.0.0.1:3002/#verse"
         },
         {
           "text": "⌖ Open in Google Maps",
@@ -354,7 +364,7 @@
         {
           "paused": false,
           "muted": false,
-          "src": "http://127.0.0.1:3000/audio/wedding-piano-loop.wav"
+          "src": "http://127.0.0.1:3002/audio/wedding-piano-loop.wav"
         }
       ],
       "buttons": [
@@ -364,6 +374,10 @@
         },
         {
           "text": "ADD TO CALENDAR",
+          "label": null
+        },
+        {
+          "text": "SHARE ON WHATSAPP",
           "label": null
         },
         {

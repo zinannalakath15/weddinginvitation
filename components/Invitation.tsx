@@ -9,7 +9,7 @@ function Artwork({ cover = false }: { cover?: boolean }) {
   const mobileSrc = cover ? invitation.media.coverMobile : invitation.media.sceneMobile;
   const description = cover
     ? invitation.messages.coverAlt
-    : "Ivory invitation paper with an ornamental gold arch and burgundy flowers.";
+    : "Ivory invitation paper with a soft sage arch and botanical details.";
 
   return (
     <div className={`artwork ${cover ? "artwork-cover" : ""}`}>
@@ -56,6 +56,20 @@ function makeCalendarFile() {
   link.remove();
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
+
+function shareOnWhatsApp() {
+  const message = [
+    invitation.messages.shareIntro,
+    `${invitation.names.groom} & ${invitation.names.bride}`,
+    `${invitation.date.gregorian} · ${invitation.date.timeRange}`,
+    `${invitation.venue.name}, ${invitation.venue.area}`,
+    invitation.venue.mapUrl,
+    window.location.href,
+  ].join("\n");
+  window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+}
+
+const petalCount = 18;
 
 export function Invitation() {
   const [opened, setOpened] = useState(false);
@@ -124,6 +138,12 @@ export function Invitation() {
   return (
     <main className="invitation-shell min-h-screen">
       <audio ref={audioRef} src={invitation.media.music} preload="none" loop aria-hidden="true" />
+
+      {opened && (
+        <div className="petal-shower" aria-hidden="true">
+          {Array.from({ length: petalCount }, (_, index) => <span className={`falling-flower petal-${index + 1}`} key={index} />)}
+        </div>
+      )}
 
       <section className={`cover fixed inset-0 grid place-items-center ${opened ? "cover-opened" : ""}`} aria-label="Wedding invitation cover" aria-hidden={opened} inert={opened}>
         <Artwork cover />
@@ -220,6 +240,17 @@ export function Invitation() {
                 <p className="save-date-couple">{invitation.names.short}</p>
                 <p className="save-date-time">{invitation.labels.wedding} · {invitation.date.timeRange}</p>
                 <button className="calendar-button" onClick={makeCalendarFile}>{invitation.labels.addToCalendar}</button>
+              </section>
+              <section className="share-card reveal">
+                <p className="eyebrow">{invitation.labels.shareInvitation}</p>
+                <Divider />
+                <button className="whatsapp-button" onClick={shareOnWhatsApp}>
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                    <path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
+                    <path d="M9 8.2c.2-.5.5-.5.8-.5l.5.1c.2 0 .3.1.4.4l.6 1.4c.1.2.1.4 0 .6l-.4.6c-.1.1-.2.3 0 .5.3.5.8 1 1.3 1.3.2.1.4.2.5 0l.6-.7c.2-.2.3-.2.6-.1l1.3.6c.3.1.4.2.4.4s-.1.9-.6 1.2c-.4.4-1 .6-1.6.5-.5-.1-1.2-.3-2-.7a7.5 7.5 0 0 1-2.5-2.2c-.7-1-.9-1.8-.8-2.3.1-.5.5-.9.9-1.1Z" fill="currentColor" />
+                  </svg>
+                  {invitation.labels.shareWhatsApp}
+                </button>
               </section>
             </div>
           </section>

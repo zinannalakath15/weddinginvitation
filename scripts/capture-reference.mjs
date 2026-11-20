@@ -47,7 +47,15 @@ for (const viewport of [{ name: "mobile", width: 390, height: 844 }, { name: "de
   await page.getByText("With great pleasure", { exact: true }).waitFor({ state: "visible" });
   await page.waitForTimeout(2200);
   await page.screenshot({ path: join(output, `opened-${viewport.name}.png`) });
+  const revealElements = await page.locator(".reveal").all();
+  for (const element of revealElements) await element.scrollIntoViewIfNeeded();
   await page.screenshot({ path: join(output, `opened-${viewport.name}-full.png`), fullPage: true });
+  const saveDateCard = page.locator(".save-date-card");
+  if (await saveDateCard.count()) {
+    await saveDateCard.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(1000);
+    await page.screenshot({ path: join(output, `save-date-${viewport.name}.png`) });
+  }
   report[viewport.name].opened = await page.evaluate(() => ({
     scrollHeight: document.body.scrollHeight,
     orderedPageText: document.body.innerText.split("\n").map((line) => line.trim()).filter(Boolean),

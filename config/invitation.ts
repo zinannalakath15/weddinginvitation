@@ -2,7 +2,7 @@ export const invitation = {
   title: "Muhammed Mushraf & Sharfina Sherin — Wedding Invitation",
   description:
     "With great pleasure, join us for the wedding of Muhammed Mushraf and Sharfina Sherin on 26 November 2026 at Smart Convention Centre, Chelari.",
-  themeColor: "#4c6546",
+  themeColor: "#293e35",
   names: {
     groom: "Muhammed Mushraf",
     bride: "Sharfina Sherin",
@@ -50,12 +50,13 @@ export const invitation = {
     wishers: "Febitha & Jimshidha",
     createdWith: "Created with",
     creator: "Invytor",
-    coverAlt: "Ivory wedding card with gold detailing, red flowers, and an illustrated couple.",
+    coverAlt: "Ivory and sage wedding card with botanical details and an illustrated couple.",
     scrollToVerse: "Scroll to the next section",
     musicMute: "Mute music",
     musicUnmute: "Unmute music",
     calendarSummary: "Wedding of Mushraf & Sharfina",
     calendarDescription: "The Wedding · 11:00 AM – 3:00 PM",
+    shareIntro: "We would be delighted to have you celebrate with us.",
   },
   labels: {
     invitation: "Wedding Invitation",
@@ -64,7 +65,9 @@ export const invitation = {
     wedding: "The Wedding",
     countdown: "Counting Down to the Wedding",
     saveTheDate: "Save the Date",
+    shareInvitation: "Share the Invitation",
     addToCalendar: "Add to Calendar",
+    shareWhatsApp: "Share on WhatsApp",
     openMap: "Open in Google Maps",
     days: "Days",
     hours: "Hrs",
