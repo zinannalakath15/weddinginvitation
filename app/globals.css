@@ -27,6 +27,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--olive); outline
 .artwork-cover { background-image: url("/images/invitation-desktop.svg"); background-position: center; background-size: cover; }
 .artwork-mobile { display: none; }
 .artwork-cover { z-index: 0; }
+.cover-couple-image { position: absolute; z-index: 1; right: clamp(8px, 5vw, 88px); bottom: -8px; width: min(28vw, 360px); height: auto; object-fit: contain; pointer-events: none; }
 .cover-ornament { position: absolute; z-index: 1; top: 15%; left: 50%; transform: translateX(-50%); color: #bd9670; font-size: clamp(34px, 4vw, 57px); line-height: 1; }
 .cover-copy { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; width: min(100%, 500px); padding: 0 18px; text-align: center; transform: translateY(-.5vh); }
 .cover-label { margin: 0 0 16px; padding: 5px 18px; border: 1px solid rgba(131, 75, 64, .27); color: #334a3d; font: 400 8.5px/1.2 Georgia, serif; letter-spacing: .58em; text-transform: uppercase; }
@@ -175,6 +176,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--olive); outline
   .artwork-desktop { display: none; }
   .artwork-mobile { display: block; }
   .artwork-cover { background-image: url("/images/invitation-mobile.svg"); }
+  .cover-couple-image { right: -18px; bottom: -6px; width: min(74vw, 320px); }
   .cover-copy { padding-right: 20px; padding-left: 20px; transform: translateY(-1.5vh); }
   .cover-ornament { top: 14%; font-size: 37px; }
   .cover-label { margin-bottom: 16px; }

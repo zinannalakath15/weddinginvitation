@@ -20,32 +20,5 @@
   <g fill="none" stroke="#b79a68" stroke-width="2.4" stroke-linecap="round"><path d="M720 188q-29-28 1-62-5 23 13 39 17-22-2-43 34 23 12 54-6 8-24 12m0-8q-40-30-69-4 30-8 57 14m17-10q38-34 71-6-29-6-59 18"/><path d="M594 209h252M678 209h84" stroke-width="1.4"/><circle cx="720" cy="209" r="4" fill="#bd9670"/></g>
   <g fill="none" stroke="#718672" stroke-width="2" opacity=".66"><path d="M0 214Q143 129 271 20M0 280Q117 231 182 111M1440 150Q1326 220 1280 349M1440 424Q1343 475 1313 580M0 667Q122 738 200 900M1440 636Q1321 705 1265 900"/></g>
     <g opacity=".9"><use href="#sprig" transform="translate(66 115) rotate(-24) scale(1.8)"/><use href="#sprig" transform="translate(1370 120) rotate(25) scale(1.65)"/><use href="#sprig" transform="translate(70 710) rotate(-20) scale(1.5)"/><use href="#sprig" transform="translate(1370 700) rotate(27) scale(1.5)"/></g>
-  <g opacity=".98"><use href="#bloom" transform="translate(24 26) scale(3.2)"/><use href="#bloom-pale" transform="translate(96 76) scale(1.8)"/><use href="#bloom" transform="translate(166 28) scale(2.05)"/><use href="#bloom-pale" transform="translate(225 116) scale(1.35)"/><use href="#bloom" transform="translate(40 194) scale(1.5)"/><use href="#bloom" transform="translate(1414 34) scale(2.9)"/><use href="#bloom-pale" transform="translate(1340 96) scale(1.8)"/><use href="#bloom" transform="translate(1390 185) scale(1.5)"/><use href="#bloom-pale" transform="translate(1358 278) scale(1.35)"/><use href="#bloom" transform="translate(24 858) scale(2.6)"/><use href="#bloom-pale" transform="translate(110 805) scale(1.8)"/><use href="#bloom" transform="translate(1415 856) scale(2.6)"/><use href="#bloom-pale" transform="translate(1338 800) scale(1.8)"/><use href="#bloom" transform="translate(72 721) scale(1.35)"/><use href="#bloom" transform="translate(1375 720) scale(1.35)"/></g><!-- Original local wedding-couple illustration -->
-      <g transform="translate(1000 655) scale(1.3 1.02)">
-    <!-- flowing bridal train and lehenga -->
-    <path d="M61 68Q42 68 34 91L28 125Q20 150-12 169L-186 216Q-205 222-183 229L48 232Q86 230 111 205L96 157L91 94Q84 72 61 68Z" fill="url(#bridalRuby)"/>
-    <path d="M61 68Q42 68 34 91L28 125Q20 150-12 169L-186 216Q-205 222-183 229L48 232Q86 230 111 205L96 157L91 94Q84 72 61 68Z" fill="url(#bridalEmbroidery)" opacity=".8"/>
-    <path d="M63 73Q47 80 44 101L36 132Q21 159-9 177L-174 218M33 224L49 229Q86 226 106 204" fill="none" stroke="url(#bridalGold)" stroke-width="3.2"/>
-    <path d="M29 127Q42 147 72 157M19 150Q42 169 61 177M-19 178Q-2 192 19 196" fill="none" stroke="#d9b76a" stroke-width="1.2" opacity=".75"/>
-    <!-- back of bride's head and long embroidered veil -->
-    <path d="M48 36Q44 11 66 5Q91 8 91 35L86 56Q108 76 112 113L105 161Q93 181 76 189L56 142L39 105Q31 79 45 59Z" fill="url(#bridalRuby)"/>
-    <path d="M48 36Q44 11 66 5Q91 8 91 35L86 56Q108 76 112 113L105 161Q93 181 76 189L56 142L39 105Q31 79 45 59Z" fill="url(#bridalEmbroidery)" opacity=".9"/>
-    <path d="M77 29Q87 32 87 42L83 48L88 51L81 57Q75 61 68 55L68 36Z" fill="#e5b89b"/>
-    <path d="M47 39Q43 17 61 7Q82 0 94 18L93 39Q89 31 83 26Q76 19 69 17Q60 29 48 43Z" fill="#342722"/><path d="M78 31Q85 35 85 42L82 47" fill="none" stroke="#bc8e6d" stroke-width="1.1"/>
-    <path d="M46 44Q36 51 33 74L40 91Q47 84 52 67M87 58Q101 70 103 91L94 103L84 78" fill="url(#bridalRuby)" stroke="url(#bridalGold)" stroke-width="1.8"/>
-    <path d="M45 48Q53 53 60 54M81 51Q88 54 92 60" fill="none" stroke="#edcc82" stroke-width="1.5"/>
-    <!-- embroidered blouse and sleeve -->
-    <path d="M47 62Q36 66 31 83L28 117Q44 128 73 126L91 112L85 80Q79 65 68 62Z" fill="url(#bridalRuby)" stroke="url(#bridalGold)" stroke-width="1.5"/>
-    <path d="M36 79Q27 84 21 101L31 112L43 91M81 78Q93 87 98 101L88 111L78 91" fill="url(#bridalRuby)" stroke="url(#bridalGold)" stroke-width="2"/>
-    <path d="M92 101Q101 108 111 107L117 103" fill="none" stroke="#d7a17d" stroke-width="7" stroke-linecap="round"/>
-    <!-- groom, in a tailored white sherwani coat -->
-    <path d="M131 59Q146 57 157 64L168 91L163 145L172 205L154 207L143 157L133 207L115 205L123 146L118 91Z" fill="url(#groomIvory)" stroke="#c9c2b2" stroke-width="1.3"/>
-    <path d="M119 91Q130 97 140 100Q151 97 163 91M140 100V149" fill="none" stroke="url(#bridalGold)" stroke-width="1.7"/><path d="M128 76L140 86L153 76" fill="none" stroke="#c9c2b2" stroke-width="1.4"/><path d="M134 103V145" stroke="#d2cec3" stroke-width=".9"/><g fill="#b69a60"><circle cx="140" cy="112" r="1.1"/><circle cx="140" cy="122" r="1.1"/><circle cx="140" cy="132" r="1.1"/></g>
-    <path d="M124 70L119 79Q109 85 108 99L114 113L125 104L132 87ZM153 72L160 81Q169 87 171 100L164 113L154 104L146 87Z" fill="url(#groomIvory)" stroke="#c9c2b2" stroke-width="1.3"/>
-    <path d="M111 105Q107 111 112 116M168 105Q173 111 168 116" fill="none" stroke="#c58e6e" stroke-width="6" stroke-linecap="round"/>
-    <path d="M133 56V75Q140 81 147 74L146 56Z" fill="#d7a17d"/><path d="M130 31Q129 12 140 9Q154 10 155 30L151 50Q147 60 140 61Q133 59 130 49Z" fill="#d7a17d"/><path d="M127 30Q124 10 138 5Q155 2 160 19L157 35L153 30Q145 28 138 20Q134 28 127 30Z" fill="#272622"/><path d="M130 28Q139 34 157 29M134 17Q143 12 152 18" fill="none" stroke="#49403a" stroke-width="1"/>
-    <path d="M123 221Q119 224 125 227L141 227L141 222M151 222L151 227L168 227Q174 225 168 222" fill="#313833"/>
-    <!-- joined hands -->
-    <path d="M113 108Q117 113 121 111" fill="none" stroke="#c58e6e" stroke-width="5" stroke-linecap="round"/>
-  </g>
-</svg>
+  <g opacity=".98"><use href="#bloom" transform="translate(24 26) scale(3.2)"/><use href="#bloom-pale" transform="translate(96 76) scale(1.8)"/><use href="#bloom" transform="translate(166 28) scale(2.05)"/><use href="#bloom-pale" transform="translate(225 116) scale(1.35)"/><use href="#bloom" transform="translate(40 194) scale(1.5)"/><use href="#bloom" transform="translate(1414 34) scale(2.9)"/><use href="#bloom-pale" transform="translate(1340 96) scale(1.8)"/><use href="#bloom" transform="translate(1390 185) scale(1.5)"/><use href="#bloom-pale" transform="translate(1358 278) scale(1.35)"/><use href="#bloom" transform="translate(24 858) scale(2.6)"/><use href="#bloom-pale" transform="translate(110 805) scale(1.8)"/><use href="#bloom" transform="translate(1415 856) scale(2.6)"/><use href="#bloom-pale" transform="translate(1338 800) scale(1.8)"/><use href="#bloom" transform="translate(72 721) scale(1.35)"/><use href="#bloom" transform="translate(1375 720) scale(1.35)"/></g>
+        </svg>

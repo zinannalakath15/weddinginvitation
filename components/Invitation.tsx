@@ -156,6 +156,15 @@ export function Invitation() {
 
       <section className={`cover fixed inset-0 grid place-items-center ${opened ? "cover-opened" : ""}`} aria-label="Wedding invitation cover" aria-hidden={opened} inert={opened}>
         <Artwork cover />
+        <Image
+          className="cover-couple-image"
+          src={invitation.media.coverCouple}
+          alt="Bride in an ivory embroidered wedding dress beside the groom in a black suit."
+          width={853}
+          height={1068}
+          sizes="(max-width: 640px) 74vw, 360px"
+          priority
+        />
         <div className="cover-ornament" aria-hidden="true">❧</div>
         <div className="cover-copy">
           <p className="cover-label">{invitation.labels.invitation}</p>
