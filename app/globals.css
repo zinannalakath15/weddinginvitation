@@ -155,9 +155,6 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--olive); outline
 .footer-couple { margin: 0; color: #334a3d; font: italic 400 21px/1.4 "Invitation Serif", "Palatino Linotype", Georgia, serif; }
 .footer-credit { margin: 8px 0 0; color: #7b8375; font: 500 9px/1.3 Georgia, serif; letter-spacing: .17em; text-transform: uppercase; }
 .footer-credit span { color: #657a68; }
-.music-button { position: fixed; z-index: 25; right: 22px; bottom: 20px; display: grid; width: 46px; height: 46px; place-items: center; border: 0; border-radius: 50%; background: #263b32; box-shadow: 0 3px 16px rgba(0,0,0,.25); color: #fff9ef; cursor: pointer; font: 400 23px/1 Georgia, serif; transition: transform .2s ease, background .2s ease; }
-.music-button:hover { transform: scale(1.07); background: var(--olive); }
-
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity .8s ease, transform .9s cubic-bezier(.16,1,.3,1); }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 .verse-block.reveal { transition-delay: .08s; }
@@ -221,7 +218,6 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--olive); outline
   .countdown-date { font-size: 8px; }
   .save-date-numbers { font-size: 32px; }
   .save-date-couple { font-size: 22px; }
-  .music-button { right: 18px; bottom: 17px; width: 44px; height: 44px; }
 }
 
 @media (max-width: 360px) {
@@ -349,7 +345,6 @@ html, body { background: var(--paper); }
 .calendar-button, .whatsapp-button { min-height: 44px; border-radius: 999px; }
 .whatsapp-button { border-color: #5c8064; color: #42694c; }
 .whatsapp-button:hover { background: #42694c; color: #fff; }
-.music-button { background: var(--wine); }
 .footer { min-height: 190px; background: #e4eade; }
 .footer .divider { width: min(230px, 60vw); }
 
@@ -389,14 +384,14 @@ html, body { background: var(--paper); }
   background: transparent;
   box-shadow: none;
   backdrop-filter: none;
-  transform: translateY(-1vh);
+  transform: translateY(1vh);
 }
 .cover-ornament { display: none; }
 .cover-label {
   margin-bottom: 20px;
   padding: 7px 20px;
-  border-color: rgba(72,100,84,.55);
-  background: rgba(250,250,244,.32);
+  border: 0;
+  background: transparent;
   color: var(--wine);
   font-size: 9px;
   letter-spacing: .48em;
@@ -426,7 +421,7 @@ html, body { background: var(--paper); }
 }
 
 @media (max-width: 640px) {
-  .cover-copy { width: 100%; padding: 0 17px; transform: translateY(-1vh); }
+  .cover-copy { width: 100%; padding: 0 17px; transform: translateY(3.4vh); }
   .cover-label { margin-bottom: 16px; padding: 6px 13px; font-size: 8px; letter-spacing: .38em; transform: none; }
   .cover-divider:not(.lower-rule), .cover-copy h1, .cover-copy h2,
   .cover-ampersand, .lower-rule, .cover-date, .cover-hijri { transform: none; }

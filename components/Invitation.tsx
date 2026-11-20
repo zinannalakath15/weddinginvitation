@@ -60,7 +60,7 @@ function makeCalendarFile() {
 function shareOnWhatsApp() {
   const message = [
     invitation.messages.shareIntro,
-    `${invitation.names.groom} & ${invitation.names.bride}`,
+    `${invitation.names.bride} & ${invitation.names.groom}`,
     `${invitation.date.gregorian} · ${invitation.date.timeRange}`,
     `${invitation.venue.name}, ${invitation.venue.area}`,
     invitation.venue.mapUrl,
@@ -73,9 +73,27 @@ const petalCount = 18;
 
 export function Invitation() {
   const [opened, setOpened] = useState(false);
-  const [muted, setMuted] = useState(false);
   const [remaining, setRemaining] = useState([0, 0, 0, 0]);
   const audioRef = useRef<HTMLAudioElement>(null);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    const stopPlayback = () => {
+      audio.pause();
+    };
+    const stopWhenHidden = () => {
+      if (document.visibilityState === "hidden") stopPlayback();
+    };
+
+    document.addEventListener("visibilitychange", stopWhenHidden);
+    window.addEventListener("pagehide", stopPlayback);
+    return () => {
+      document.removeEventListener("visibilitychange", stopWhenHidden);
+      window.removeEventListener("pagehide", stopPlayback);
+    };
+  }, []);
 
   useEffect(() => {
     if (!opened) return;
@@ -122,18 +140,9 @@ export function Invitation() {
       audio.muted = false;
       void audio.play().catch(() => {
         audio.muted = true;
-        setMuted(true);
       });
     }
   }, []);
-
-  const toggleMusic = () => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    audio.muted = !audio.muted;
-    setMuted(audio.muted);
-    if (!audio.muted && audio.paused) void audio.play().catch(() => setMuted(true));
-  };
 
   return (
     <main className="invitation-shell min-h-screen">
@@ -151,9 +160,9 @@ export function Invitation() {
         <div className="cover-copy">
           <p className="cover-label">{invitation.labels.invitation}</p>
           <Divider className="cover-divider" />
-          <h1 className="cover-name">{invitation.names.groom}</h1>
+          <h1 className="cover-name">{invitation.names.bride}</h1>
           <span className="cover-ampersand" aria-hidden="true">&amp;</span>
-          <h2 className="cover-name">{invitation.names.bride}</h2>
+          <h2 className="cover-name">{invitation.names.groom}</h2>
           <Divider className="cover-divider lower-rule" />
           <p className="cover-date">{invitation.date.coverGregorian}</p>
           <p className="cover-hijri">{invitation.date.hijri}</p>
@@ -190,9 +199,9 @@ export function Invitation() {
                 <p className="verse-translation">{invitation.messages.verseTranslation}</p>
               </div>
               <Divider className="family-divider reveal" />
-              <FamilyDetails name={invitation.names.groom} parents={invitation.families.groomParents} address={invitation.families.groomAddress} />
-              <span className="couple-ampersand reveal" aria-hidden="true">&amp;</span>
               <FamilyDetails name={invitation.names.bride} parents={invitation.families.brideParents} address={invitation.families.brideAddress} />
+              <span className="couple-ampersand reveal" aria-hidden="true">&amp;</span>
+              <FamilyDetails name={invitation.names.groom} parents={invitation.families.groomParents} address={invitation.families.groomAddress} />
             </div>
           </section>
 
@@ -264,9 +273,6 @@ export function Invitation() {
         </div>
       )}
 
-      {opened && <button className="music-button" onClick={toggleMusic} aria-label={muted ? invitation.messages.musicUnmute : invitation.messages.musicMute} aria-pressed={!muted}>
-        <span aria-hidden="true">{muted ? "♬̸" : "♫"}</span>
-      </button>}
     </main>
   );
 }
